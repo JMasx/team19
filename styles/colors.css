@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #214B6A;
+    --text-color: #E5EBFF;                                                    /*7.74:1 compared to primary-color, 10.62:1 compared to dark-grey*/
+    --dark-grey:  #333333;
+    --accent-color: #4CAF50;                                                  /*7.55 compared to text-highlight-color*/
+    --footer-color: #CCCCCC;
+    --text-highlight-color: #000000;
+}

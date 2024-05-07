@@ -1,0 +1,61 @@
+/*Color scheme according to colors.css*/
+
+html {
+    background-color: #214B6A;/*var(--primary-color)*/                        /*primary-color*/
+}
+body {
+    color: #E5EBFF;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+}
+nav {
+    color: #E5EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;/*var(--dark-grey)*/                            /*dark-grey*/
+}
+h1 {
+    color: #E5EBFF;
+    text-align: center;
+    padding: 25px;
+}
+nav a {
+    color: #E5EBFF;/*var(--text-color)*/                                        /*text-color*/
+    text-decoration: none;
+    padding: 16px 20px;
+}
+nav a:hover {
+    background-color: #4CAF50;/*var(--accent-color)*/                         /*accent-color*/
+    color: #333333
+}
+footer {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #CCCCCC;
+    bottom: 0;
+    width: 99.5%;
+    color:#333333
+}
+
+#bottom-table-container {
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bottom-table-container td {
+    border: 1px solid lightgrey;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}

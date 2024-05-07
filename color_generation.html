@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>T.A.J.J Inc. Color Generation</title>
+        <link rel="stylesheet" href="styles/color_generation.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="generation.js"></script>
+    </head>
+    <body>
+
+
+        <nav class="navigation">
+            <img src="assets/TAJJLogo.jpg" alt="Photo of Placeholder Logo" >
+                <a href="index.php">Home</a>
+                <a href="about_us.html">About Us</a>
+                <a href="color_generation.html">Color Generation</a>
+                <a href="color_selection.php">Color Selection</a>
+        </nav>
+
+        <div class="content">
+            <h1>T.A.J.J. Inc. Color Generation Product</h1>
+
+            <p>Welcome to our Color Generation page! Here you can find our first team product, Color generation tables! By following the instructions below you will be able to generate two tables based on your needs!</p>
+
+            <p>
+                Enter two numbers separated by a space. The first in range 1-10, the second in range 1-26.
+            </p>
+
+
+            <div style="padding-bottom: 10px;">
+                <input type="text" id="color-input" placeholder="Enter Numbers">
+                <button onclick="generateTables()">Submit</button>
+                <div id="input1-error"></div>
+                <div id="input2-error"></div>
+
+            </div>
+
+            
+
+            <h3>Upper Color Graph</h3>
+            <div id="top-table-container"></div>
+            <div id="upper-table-error"></div>
+
+            <h3>Lower Color Graph</h3>
+            <div id="bottom-table-container"></div>
+
+            <button onclick="printingGraphs()">Print</button>
+
+            <footer>Created by Team 19</footer>
+        </div>
+    </body>
+</html>

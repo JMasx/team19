@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Graph Printing</title>
+        <link rel="stylesheet" href="styles/printing.css">
+    </head>
+    <body>
+        <nav class="navigation">
+            <img src="assets/TAJJLogo.jpg" alt="Photo of Placeholder Logo" >
+                <a href="index.php">Home</a>
+                <a href="about_us.html">About Us</a>
+                <a href="color_generation.html">Color Generation</a>
+        </nav>
+
+        <div class="container">
+            <h1>T.A.J.J. Inc. Color Generation Product</h1>
+            <div id="grey-upper-table-container"></div>
+            <div id="grey-lower-table-container"></div>
+
+            <script src="generation.js"></script>
+            <script>
+                window.onload = function() {
+                    const upperTableHtml = sessionStorage.getItem('upperTable');
+                    const lowerTableHtml = sessionStorage.getItem('lowerTable');
+
+                    document.getElementById('grey-upper-table-container').innerHTML = upperTableHtml;
+                    document.getElementById('grey-lower-table-container').innerHTML = lowerTableHtml;
+                };
+            </script>
+            <footer>Created by Team 19</footer>
+        </div>
+    </body>
+</html>
