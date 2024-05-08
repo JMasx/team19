@@ -36,26 +36,62 @@ nav a:hover {
     color: #333333
 }
 footer {
+    margin-top: 20px;
     padding: 20px;
-    position: relative;
     text-align: center;
     box-sizing: border-box;
-    background-color: #CCCCCC;
-    bottom: 0;
+    bottom: 0px;
     width: 99.5%;
-    color:#333333
+    background-color: #333333;  
+    color:#E5EBFF;
 }
 
 #bottom-table-container {
+    
     border-collapse: collapse;
-    border: 1px solid lightgrey;
+    border: 1px solid #333333;
     margin-top: 20px;
     margin-bottom: 10px;
+    
 }
 
 #bottom-table-container td {
-    border: 1px solid lightgrey;
+    border: 1px solid #333333;
     width: 30px;
     height: 30px;
     text-align: center;
+    background-color: #CCCCCC;
+}
+
+/*new changes*/
+#top-table-container {
+    margin: 0 auto;
+    width: 750px;
+    border: 2px solid #333333;
+}
+#top-table-container td {
+    background-color: #CCCCCC;
+
+}
+button {
+    background-color: #333333;
+    color: #CCCCCC;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: #CCCCCC;
+    color: #333333;
+}
+.content input[type="text"] {
+    width: auto;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 0.5px solid ;
+    border-radius: 10px;
+    margin: auto;
 }

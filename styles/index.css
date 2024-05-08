@@ -39,18 +39,12 @@ h1 {
     text-align: center;
     padding: 25px;
 }
-footer {
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: var(--footer-color);
-    bottom: 0;
-    width: 99.5%;
+footer {/*why no work?*/
+    background-color: #333333;  
+    color:#E5EBFF;
 }
 
-footer p {
-    color: #00008B;
-} 
+
 
 .text-container {
     display: flex;
@@ -67,9 +61,6 @@ img {
     max-width: 250px;
 }
 
-.fixed-footer {
-    position: fixed;
-}
 
 
 

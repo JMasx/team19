@@ -31,14 +31,8 @@ h1 {
     padding: 25px;
 }
 footer {
-    padding: 20px;
-    position:static;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: #CCCCCC;
-    bottom: 0;
-    width: 99.5%;
-    color:#333333
+    background-color: #333333;  
+    color:#E5EBFF;
 }
 
 input[type="radio"] {
